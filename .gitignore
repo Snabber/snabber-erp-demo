@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Segredos e dados locais (chaves dos clientes ficam em .data, cifradas)
+.env
+.env.local
+.env.*.local
+.data/
+
+.DS_Store
+npm-debug.log*

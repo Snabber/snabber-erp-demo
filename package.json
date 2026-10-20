@@ -1,0 +1,23 @@
+{
+  "name": "snabber-erp-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ERP de demonstração que integra a API de Orgs da Snabber (clientes, conexão bancária, webhooks).",
+  "scripts": {
+    "dev": "next dev -p 3200",
+    "build": "next build",
+    "start": "next start -p 3200",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.9",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
